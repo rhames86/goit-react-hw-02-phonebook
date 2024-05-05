@@ -28,7 +28,7 @@ export class ContactForm extends Component {
     const { name, number } = this.state;
 
     if (name === '' || '' || undefined) {
-      return alert(`Fill in the field`);
+      return alert(`Please, fill the fields`);
     }
 
     const checkContact = contacts.some(
